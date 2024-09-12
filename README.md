@@ -5,7 +5,8 @@ A Python script for automating catchment delineation in QGIS from a raster layer
 
 1. **Fill Depressions**: Uses the Wang and Liu method to fill depressions in a DEM, ensuring hydrological correctness.
 2. **Generate Isobasins**: Automatically generates isobasins based on a user-defined target size.
-3. **Vectorize Isobasins**: Converts the isobasins raster to vector polygons for integration into other GIS applications.
+If your catchment is 100ha(1,000,000m2) and you want to divide it into 10 subcatchments, use target basin size as 100,000.
+4. **Vectorize Isobasins**: Converts the isobasins raster to vector polygons for integration into other GIS applications.
 
 ## Prerequisites
 
